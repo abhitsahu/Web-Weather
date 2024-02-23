@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Web Weather</title>
+</head>
+<body>
+    <div>
+        {{>header}}
+    </div>
+    
+    <p class="error"></p>
+    <form>
+        <input type="type" placeholder="Address.......">
+        <button>check</button>
+    </form>
+
+
+        
+        <div class="weatherdetails">
+
+            <div class="details1">
+                <img class="weather_img" src="/img/bgc.jpeg" alt="">
+                <p class="text"></p>
+                <p class="time"></p>
+            </div>
+
+            <div class="details2">
+                <p class="country"></p>
+                <p class="temperature"></p>
+
+                <div class="lastdetails">
+                    <div id="humidity">
+                        <p class="humidity value"></p>
+                        <p class="humidityvalue answer"></p>
+                    </div>
+                    <div id="wind">
+                        <p class="wind value"></p>
+                        <p class="windvalue answer"></p>
+                    </div>
+                    <div id="pressure">
+                        <p class="pressure value"></p>
+                        <p class="pressurevalue answer"></p>
+                    </div>
+                </div>
+                <div class="enddetails">
+                    <div id="uv_index">
+                        <p class="uv value"></p>
+                        <p class="uvalue answer"></p>
+                    </div>
+                    <div id="winddegree">
+                        <p class="winddir value"></p>
+                        <p class="winddirvalue answer"></p>
+                    </div>
+                    <div id="feelslike">
+                        <p class="feelslike value"></p>
+                        <p class="feelslikevalue answer"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            {{>footer}}
+        </div>
+        
+    
+    <script src="/js/app.js" class="btn"></script>
+</body>
+</html>

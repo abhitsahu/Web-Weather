@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #0144B6;
+    color: aliceblue;
+    font-family: arial;
+
+}
+
+.main-content {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 100px;
+    color: #888888;
+}
+
+.container{
+    display: flex;
+    
+    justify-content: space-between;
+    /* padding-top: 1.5rem; */
+}
+
+.item{
+    display: flex;
+    gap: 2rem;
+    height: 20px;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 2rem;
+}
+header a:hover{
+    color: rgb(180, 164, 143);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    
+}
+
+form input{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 35rem;
+    height: 3rem;
+}
+form button{
+    
+    width: 5rem;
+    border-radius: 10px;
+    
+    height: 3rem;
+}
+
+
+header img{
+    height: 8rem;
+    width: 8rem;
+}
+h1{
+    color: rgb(37, 218, 218);
+}
+
+/* weather details */
+
+.weatherdetails{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    font-size: 25px;
+
+}
+.details1{
+    text-align: center;
+    padding-right: 10rem;
+    margin-top: 3rem;
+
+}
+.details1 p{
+    padding-right: 1rem;
+}
+.details2{
+    text-align: center;
+    padding-left: 5rem;
+    margin-top: 2rem;
+
+
+}
+
+.lastdetails{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    padding-top: 1rem;
+}
+.enddetails{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    padding-top: 1rem;
+}
+
+.value{
+    color: #000000;
+    font-weight: 600;
+}
+
+.answer{
+    padding-top: 0.3rem;
+    font-family: serif;
+}
+
+
+.temperature{
+    padding-top: 1rem;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+
+.time{
+    padding-top: 1rem;
+}
+
+.imglogo{
+    margin-left: 1.5rem;
+}
+
+/* weather image */
+
+.weather_img{
+    height: 10rem;
+    width: 10rem;
+}
+
+/* seachbar */
+
+form input{
+    text-align: center;
+    font-size: 20px;
+}
+
+form button{
+    font-size: 20px;
+}
+
+form button:hover{
+    background-color: #fbfd5b;
+    color: #000000;
+}
+
+/* footer */
+
+footer {
+    
+    color: #888888;
+    /* border-top: 1px solid #eeeeee; */
+    margin-top: 80px;
+    padding: 16px 0;
+    padding-right: 1.5rem;
+    text-align: end;
+    
+}
+
+/* error */
+
+.error{
+    text-align: center;
+    padding-bottom: 1rem;
+    color: #888888;
+}
+
+.errorimg{
+    position: relative;
+    left: 28%;
+    
+}
+
+/* about page  */
+
+.syntax{
+    position: relative;
+    width: 55%;
+    left: 23%;
+}
+
+.about_header{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: serif;
+}
+
+.web{
+    text-align: center;
+    font-size: 2rem;
+    font-family: serif;
+}
+.webdetails{
+    text-align: left;
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /* text-align: justify; */
+    text-align-last: left;
+    /* width: 40rem; */
+    
+}
