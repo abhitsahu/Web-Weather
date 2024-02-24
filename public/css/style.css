@@ -301,6 +301,7 @@ footer {
         display: flex;
         flex-direction: row;
         padding-right: 2rem;
+        padding-left: 1rem;
         padding-top: 1rem;
         
         
@@ -313,7 +314,7 @@ footer {
 
     .answer{
         font-size: 1rem;
-        padding-left: 1rem;
+        padding-left: 2rem;
     }
 
     .about_header{
