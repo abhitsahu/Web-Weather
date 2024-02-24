@@ -217,3 +217,109 @@ footer {
     /* width: 40rem; */
     
 }
+
+/* responsive for mobile*/
+
+@media only screen and (max-width:684px){
+
+    .container{
+        display: grid;
+        grid-template-columns: 35% 65%;
+    }
+    .container img{
+        position: relative;
+        top: 10%;
+        max-width: 4rem;
+        height: 4rem;
+    }
+    .container a{
+        display: flex;
+        justify-content: space-between;
+        font-size: 60%;
+    }
+
+    form{
+        position: relative;
+        top: 2rem;
+    }
+
+    form input{
+        
+        max-width: 70%;
+        
+    }
+    form button{
+        
+        max-width: 70%;
+        background-color: #fff;
+        
+    }
+
+    /* error */
+
+    .error{
+        position: relative;
+        top: 2rem;
+    }
+
+    /* body */
+    .weatherdetails{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    .details1 img{
+        max-width: 6rem;
+        height: 6rem;
+    }
+    .text1{
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+    .text{
+        padding-left: 1.7rem;
+    }
+
+    .country{
+        padding-top: 1rem;
+        font-size: 60%;
+        
+    }
+    .temperature{
+        font-size: 4rem;
+    }
+    .lastdetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .enddetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .devrow{
+        display: flex;
+        flex-direction: row;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        
+        
+    }
+
+    .value{
+        font-size: 1.5rem;
+        
+    }
+
+    .answer{
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+
+
+
+    
+    
+    
+}
