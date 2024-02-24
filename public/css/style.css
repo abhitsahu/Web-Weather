@@ -316,6 +316,19 @@ footer {
         padding-left: 1rem;
     }
 
+    .about_header{
+        padding-top: 2rem;
+        font-size: 3rem;
+    }
+    .web{
+        padding-top: 0.4rem;
+
+        font-size: 1.2rem;
+    }
+
+    .webdetails{
+        font-size: 1rem;
+    }
 
 
 
