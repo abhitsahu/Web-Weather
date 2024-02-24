@@ -330,6 +330,16 @@ footer {
         font-size: 1rem;
     }
 
+    .pagenf{
+        padding-top: 1.5rem;
+        font-size: 4rem;
+    }
+
+    .errorimg{
+        position: relative;
+        left: 2%;
+        max-width: 22rem;
+    }
 
 
     

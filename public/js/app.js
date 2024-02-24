@@ -33,7 +33,7 @@ weatherForm.addEventListener("submit", (e) => {
 
 
 
-  fetch("http://localhost:3000/weather?address=" + locationValue).then(
+  fetch("https://web-weather-apbw.onrender.com/weather?address=" + locationValue).then(
     (response) => {
       response.json().then((data) => {
         if (data.error) {
